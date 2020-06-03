@@ -22,20 +22,28 @@ nav, button {
 	font-style: italic;
 	color: #fff;	
 	border-radius: 2px;
+	-webkit-transition: all 0.12s ease-out;
+	-moz-transition:    all 0.12s ease-out;
+	-ms-transition:     all 0.12s ease-out;
+	-o-transition:      all 0.12s ease-out;
 }
 
 button {
 	font-size: 2em;
 	font-weight: 700;
+	border: 1px solid #FF8181;
 	text-transform: uppercase;
-	padding: 5px;
-
+	padding: 5px 15px;
 }
 
 button:hover {
 	background-color: #fff;
 	color: #FF8181;
-	border: 1px solid #FF8181;
+	padding: 5px 20px;
+	-webkit-transition: all 0.12s ease-out;
+	-moz-transition:    all 0.12s ease-out;
+	-ms-transition:     all 0.12s ease-out;
+	-o-transition:      all 0.12s ease-out;
 	
 }
 
@@ -128,7 +136,16 @@ header h2 {
 	
 }
 
-footer, footer a {color: #fff;}
+footer h3 {
+	color: #fff; 
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+footer p {text-align: center}
+
+footer a {margin-right: 40px;}
+
 
  .mywhy {
 	height: 200px;
