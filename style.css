@@ -187,9 +187,11 @@ footer a {margin-right: 40px;}
 	font-weight: 700;
 }
 
-/*--- PROJECT PAGE ---*/
+/*--- PROJECT LIBRARY PAGE ---*/
 
 .project article, .index article {overflow: auto;}
+
+.projectscontainter .projects {overflow: none;}
 
 .projects {
 	position: relative;
@@ -206,8 +208,9 @@ footer a {margin-right: 40px;}
 
 .projects:hover {
 	position: relative;
-	top: -3px; 
+		top: -3px;
 	left: -3px; 
+	border-bottom: none;
 	box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
 	-webkit-transition: all 0.12s ease-out;
 	-moz-transition:    all 0.12s ease-out;
@@ -241,7 +244,7 @@ footer a {margin-right: 40px;}
 
 .projects:hover h4 {display: block;}
 
-.projects:nth-child(1){background-image: url(images/portfolio/cloudio.png);} 
+.projects:nth-child(1){background-image: url(images/portfolio/claudio.png);} 
 
 .projects:nth-child(2){background-image: url(images/portfolio/mediumarticle.png);} 
 
@@ -252,6 +255,34 @@ footer a {margin-right: 40px;}
 .projects:nth-child(5){background-image: url(images/portfolio/lifesum1.png); background-position: center;}
 
 .projects:nth-child(6){background-image: url(images/portfolio/redesgign.png);}
+
+
+/*--- PROJECT PAGES ---*/
+
+.project img {
+	height: 38vh;
+	
+}
+
+.project .description {
+	width: 30%;
+	float: left;
+	margin-top: 20px;
+}
+
+.project .description h3 {
+	color: #FF8181;
+	padding-top: 20px;
+}
+
+.project .description p, .project .description i {
+	color: #fff;
+}
+
+.project .description button {
+	margin-top: 50px;
+	font-size: 1.5em;
+}
 
 /*--- ___ ---*/
 
@@ -313,4 +344,18 @@ section {width: 100%;}
     transform:rotate(-5deg)
 }
 
+/*---  MOBIL  ---*/
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	body {
+		background-color: blue
+	}
+	
+	header, article, footer {width:95vw;}
+	
+	.projects {width: 90%}
+}
 
