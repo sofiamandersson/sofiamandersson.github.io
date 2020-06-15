@@ -193,6 +193,13 @@ footer a {margin-right: 40px;}
 
 .projectscontainter .projects {overflow: none;}
 
+.center {
+	width: 100%;
+	display: flex;
+  	justify-content: center;
+
+}
+
 .projects {
 	position: relative;
 	width: 45%;
@@ -248,11 +255,11 @@ footer a {margin-right: 40px;}
 
 .projects:nth-child(2){background-image: url(images/portfolio/mediumarticle.png);} 
 
-.projects:nth-child(3){background-image: url(images/portfolio/passionproject2.png);}
+.projects:nth-child(3){background-image: url(images/portfolio/ws_kth.jpg); background-position: center;}
 
 .projects:nth-child(4){background-image: url(images/portfolio/lumitrack.png);}
 
-.projects:nth-child(5){background-image: url(images/portfolio/lifesum1.png); background-position: center;}
+.projects:nth-child(5){background-image: url(images/portfolio/passionproject2.png);}
 
 .projects:nth-child(6){background-image: url(images/portfolio/redesgign.png);}
 
@@ -282,6 +289,54 @@ footer a {margin-right: 40px;}
 .project .description button {
 	margin-top: 50px;
 	font-size: 1.5em;
+}
+
+
+.deeperdescription div:nth-child(2) {
+	float: right;
+	width: 40%;
+	padding: 90px 0px;
+}
+
+.deeperdescription div:nth-child(4) {
+	float: left;
+	width: 60%;
+	padding: 90px 0px;
+}
+
+.deeperdescription div:nth-child(7) {
+	float: left;
+	width: 40%;
+	padding: 90px 0px;
+}
+
+.deeperdescription img:nth-child(1) {
+	width: 48%;
+	height: auto;
+	float: left;
+}
+
+.deeperdescription img:nth-child(3) {
+	width: 48%;
+	height: auto;
+	float: right;
+}
+
+.deeperdescription img:nth-child(5) {
+
+	width: 41%;
+	height: auto;
+	float: right;
+}
+
+.deeperdescription img:nth-child(6) {
+	width: 48%;
+	height: auto;
+	float: left;
+}
+
+.deeperdescription button {
+	margin: 100px 0px;
 }
 
 /*--- ___ ---*/
