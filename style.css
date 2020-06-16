@@ -147,13 +147,19 @@ footer a {margin-right: 40px;}
 
 
  .mywhy {
-	height: 200px;
+	height: 250px;
 	background-color: #fff;
+}
+
+.mywhy h3 {
+	font-size: 1.7em;
+	text-align: center;
+	padding-bottom: 50px;
 }
 
 
 .mywhy div {
-	width: 33%;
+	width: 32%;
 	 position: relative;
 	float: left;
 	text-align: center;
@@ -171,9 +177,20 @@ footer a {margin-right: 40px;}
 
 /*--- LOGOS ---*/
 
+.logos h2 {
+	color: #fff;
+	padding: 30px 0px;
+}
+
+
+
 .logos img {
 	width: 10%;
+	padding: 10px;
+	margin: 6px;
 }
+
+
 
 /*--- testimonials ---*/
 
@@ -184,6 +201,14 @@ footer a {margin-right: 40px;}
 	font-family: 'Open sans', sans-serif;
 	font-style: normal;
 	font-weight: 700;
+}
+
+.testimonials div {
+	width: 46%;
+	text-align: center;
+	position: relative;
+	float: left;
+	padding: 20px 10px;
 }
 
 /*--- PROJECT LIBRARY PAGE ---*/
