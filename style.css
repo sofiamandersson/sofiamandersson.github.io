@@ -13,7 +13,7 @@ body {
 }
 
 header, article, footer {
-    width:80vw;
+    width:90vw;
     margin: 0 auto;
 }
 
@@ -28,6 +28,29 @@ nav, button {
 	font-style: italic;
 	color: #fff;	
 	border-radius: 2px;
+	-webkit-transition: all 0.12s ease-out;
+	-moz-transition:    all 0.12s ease-out;
+	-ms-transition:     all 0.12s ease-out;
+	-o-transition:      all 0.12s ease-out;
+}
+
+a {text-decoration: none;}
+
+i {color: #FF8181;}
+
+a:link {
+	color: #FF8181;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FF8181;
+	text-decoration: none;
+}
+
+a:hover {
+	position: relative;
+	border-bottom: 3px solid #fff;
 	-webkit-transition: all 0.12s ease-out;
 	-moz-transition:    all 0.12s ease-out;
 	-ms-transition:     all 0.12s ease-out;
@@ -53,30 +76,6 @@ button:hover {
 	
 }
 
-
-a {text-decoration: none;}
-
-i {color: #FF8181;}
-
-a:link {
-	color: #FF8181;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #FF8181;
-	text-decoration: none;
-}
-
-a:hover {
-	position: relative;
-	border-bottom: 3px solid #fff;
-	-webkit-transition: all 0.12s ease-out;
-	-moz-transition:    all 0.12s ease-out;
-	-ms-transition:     all 0.12s ease-out;
-	-o-transition:      all 0.12s ease-out;
-}
-
 button, header h1 {background-color: #FF8181;}
 
 h1 {
@@ -87,14 +86,14 @@ h1 {
 }
 
 nav {
-	width: 100vw;
+	width: 90vw;
   	margin: 0 auto;	
 }
 
 .fixed-nav nav {
 	position: fixed;
 	top: 0;
-	left: 200px;
+	left: 50px;
   	z-index: 1;
 }
 
@@ -266,9 +265,9 @@ footer a {margin-right: 40px;}
 
 /*--- PROJECT PAGES ---*/
 
-.project img {
+.project img, .project iframe {
 	height: 38vh;
-	
+	float: right;
 }
 
 .project .description {
@@ -310,6 +309,10 @@ footer a {margin-right: 40px;}
 	padding: 90px 0px;
 }
 
+.deeperdescription p {
+	padding: 5px 0px;
+}
+
 .deeperdescription img:nth-child(1) {
 	width: 48%;
 	height: auto;
@@ -330,14 +333,16 @@ footer a {margin-right: 40px;}
 }
 
 .deeperdescription img:nth-child(6) {
-	width: 48%;
+	width: 56%;
 	height: auto;
 	float: left;
 }
 
 .deeperdescription button {
-	margin: 100px 0px;
+	margin: 20px 0px 0px 0px;
 }
+
+.transdevpadding {padding-bottom: 50px;}
 
 /*--- ___ ---*/
 
