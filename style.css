@@ -112,11 +112,13 @@ nav a:hover {
 	color: #fff;
 }
 
-nav a:nth-child(1){
+nav a:nth-child(1) {
 	color: #fff;
 	background-color: #FF8181;
 	margin-right: 30px;
 }
+
+nav a:nth-child(2) {display: none;}
 
 .index header {padding-top: 200px;}
 
@@ -439,6 +441,12 @@ section {width: 100%;}
 	nav {width: 100vw;}
 	
 	nav a:nth-child(1){display: none;}
+	
+	nav a:nth-child(2){
+		display: inline-block;
+		color: #fff;
+		background-color: #FF8181;
+	}
 	
 	.fixed-nav nav {left: 15px;}
 	
