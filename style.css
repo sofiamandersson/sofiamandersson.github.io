@@ -146,7 +146,6 @@ footer a {margin-right: 40px;}
 
 
  .mywhy {
-	height: 250px;
 	background-color: #fff;
 }
 
@@ -484,6 +483,20 @@ section {width: 100%;}
 	.testimonials div {width: 95%}
 	
 	.project .description {width: 90%;}
+	
+	.project img {
+		height: 30vh;
+		float: left;
+		padding: 20px 0px;
+	}
+	
+	.project iframe {
+		height: 30vh;
+		float: left;
+		margin: 20px 0px;
+	}
+	
+	.fisken button {font-size: 1.2em;}
 }
 
 @media (hover: hover) {
