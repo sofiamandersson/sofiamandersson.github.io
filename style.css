@@ -202,7 +202,7 @@ footer a {margin-right: 40px;}
 }
 
 .testimonials div {
-	width: 46%;
+	width: 45%;
 	text-align: center;
 	position: relative;
 	float: left;
@@ -332,6 +332,18 @@ footer a {margin-right: 40px;}
 	padding: 90px 0px;
 }
 
+.deeperdescription div:nth-child(6) {
+	float:left;
+	background-color: RED;
+	width: 100%;
+}
+
+.deeperdescription div:nth-child(6) img {
+
+	width: 30%;
+	height: auto;
+}
+
 .deeperdescription p {
 	padding: 5px 0px;
 }
@@ -366,6 +378,10 @@ footer a {margin-right: 40px;}
 }
 
 .transdevpadding {padding-bottom: 50px;}
+
+
+
+
 
 /*--- ___ ---*/
 
