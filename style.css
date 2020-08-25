@@ -173,6 +173,26 @@ footer a {margin-right: 40px;}
 	color: #FF8181;
 }
 
+.minicv {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.minicv h3, .minicv h2 {
+	color: #fff;
+	padding-bottom: 5px;
+}
+.minicv h2 {color: #FF8181}
+
+.minicv div {
+	width: 46%;
+	float: left;
+	padding: 2%;
+}
+
+
+
 /*--- LOGOS ---*/
 
 .logos h2 {
